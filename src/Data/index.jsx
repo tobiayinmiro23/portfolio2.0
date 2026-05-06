@@ -2,12 +2,20 @@ import skill from '../Assets/code-tech-dev-svgrepo-com (1).svg'
 import database from  '../Assets/database-svgrepo-com.svg'
 import backend from '../Assets/datastore-svgrepo-com.svg'
 import mobile from  '../Assets/mobile-svgrepo-com.svg'
+import Mail from '../Assets/email-svgrepo-com.svg'
+import Github from '../Assets/github-svgrepo-com.svg'
+import Linkedin from '../Assets/linkedin-svgrepo-com (1).svg'
+import Whatsapp from '../Assets/whatsapp-svgrepo-com.svg'
+
+
 
 export  const skillGroups = [
   { icon: skill, title: "Frontend", items: ["React", "Next.js", "TypeScript", "Tailwind", "Material UI", "Bootstrap", "Sass", "Redux Toolkit"] },
   { icon: backend, title: "Backend", items: ["Node.js", "Express", "REST APIs", "Prisma"] },
   { icon: database, title: "Databases", items: ["PostgreSQL", "MongoDB", "Supabase", "Firebase"] },
   { icon: mobile, title: "Mobile & Tooling", items: ["React Native", "Git & GitHub", "Vercel", "Netlify", "Render"] },
+  { icon: mobile, title: "Languages", items: ["Javascript","Typescript","Python","Golang"] },
+
 ];
 
 export const stack = [
@@ -27,6 +35,36 @@ export const metaData= [
       { property: "og:description", content: "Full stack developer building fast, beautiful, scalable web and mobile apps." },
     ]
 
+export const contacts = [
+  {
+    id: 1,
+    label: "Email",
+    value: "ayinmirotobi@gmail.com",
+    href: "mailto:ayinmirotobi@gmail.com",
+    icon: Mail
+  },
+  {
+    id: 2,
+    label: "GitHub",
+    value: "@tobiayinmiro23",
+    href: "https://github.com/tobiayinmiro23",
+    icon: Github
+  },
+  {
+    id: 3,
+    label: "LinkedIn",
+    value: "/in/tobi-ayinmiro-74468a232",
+    href: "https://linkedin.com/in/tobi-ayinmiro-74468a232",
+    icon: Linkedin
+  },
+  {
+    id: 4,
+    label: "Whatsapp",
+    value: "+2348175561332",
+    href: "https://wa.me/+2348175561332",
+    icon: Whatsapp
+  }
+];
 export const projects = [
   {
     id: 1,
