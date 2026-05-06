@@ -1,6 +1,7 @@
 import skill from '../Assets/code-tech-dev-svgrepo-com (1).svg'
 import database from  '../Assets/database-svgrepo-com.svg'
 import backend from '../Assets/datastore-svgrepo-com.svg'
+import language from '../Assets/light-json-svgrepo-com.svg'
 import mobile from  '../Assets/mobile-svgrepo-com.svg'
 import Mail from '../Assets/email-svgrepo-com.svg'
 import Github from '../Assets/github-svgrepo-com.svg'
@@ -14,7 +15,7 @@ export  const skillGroups = [
   { icon: backend, title: "Backend", items: ["Node.js", "Express", "REST APIs", "Prisma"] },
   { icon: database, title: "Databases", items: ["PostgreSQL", "MongoDB", "Supabase", "Firebase"] },
   { icon: mobile, title: "Mobile & Tooling", items: ["React Native", "Git & GitHub", "Vercel", "Netlify", "Render"] },
-  { icon: mobile, title: "Languages", items: ["Javascript","Typescript","Python","Golang"] },
+  { icon: language, title: "Languages", items: ["Javascript","Typescript","Python","Golang"] },
 
 ];
 
