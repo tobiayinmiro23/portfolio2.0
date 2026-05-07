@@ -11,10 +11,10 @@ import Whatsapp from '../Assets/whatsapp-svgrepo-com.svg'
 
 
 export  const skillGroups = [
-  { icon: skill, title: "Frontend", items: ["React", "Next.js", "TypeScript", "Tailwind", "Material UI", "Bootstrap", "Sass", "Redux Toolkit"] },
-  { icon: backend, title: "Backend", items: ["Node.js", "Express", "REST APIs", "Prisma"] },
-  { icon: database, title: "Databases", items: ["PostgreSQL", "MongoDB", "Supabase", "Firebase"] },
-  { icon: mobile, title: "Mobile & Tooling", items: ["React Native", "Git & GitHub", "Vercel", "Netlify", "Render"] },
+  { icon: skill, title: "Frontend", items: ["React", "Next.js", "Schad cn", "Tailwind", "Material UI", "Bootstrap", "Sass", "Redux Toolkit"] },
+  { icon: backend, title: "Backend", items: ["Node.js", "Express", "REST APIs","Supabase", "Firebase"] },
+  { icon: database, title: "Databases", items: ["PostgreSQL", "MongoDB",  "Prisma", "mongoose"] },
+  { icon: mobile, title: "Mobile & Tooling", items: ["React Native", "Git & GitHub", "Vercel", "Netlify", "Render","Railway"] },
   { icon: language, title: "Languages", items: ["Javascript","Typescript","Python","Golang"] },
 
 ];
@@ -26,7 +26,7 @@ export const stack = [
   ];
 export const experienceSummary=[
             { k: "5+", v: "Years of experience" },
-            { k: "20+", v: "Projects shipped" },
+            { k: "35+", v: "Projects shipped" },
             { k: "5", v: "Companies worked with" },
           ]
 export const metaData= [
