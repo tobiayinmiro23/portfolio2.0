@@ -14,7 +14,7 @@ const Projects = () => {
         {projects.map((project) => (
           <div
             key={project.id}
-            className=" w-[22rem] p-[0.9rem] m-4 project-border rounded-[0.8rem] shadow-[0px_1px_24px_rgba(0,0,0,0.2)] pb-3 sm:w-[21rem] md:w-[20rem] lg:w-[23rem] max-[325px]:w-[90%]"
+            className=" w-[22rem] p-[0.9rem] m-4 project-border rounded-[0.8rem] shadow-[0px_1px_24px_rgba(0,0,0,0.2)] pb-3  max-[1023px]:w-[23rem] max-[767px]:w-[20rem] max-[639px]:w-[21rem] max-[390px]:mx-0"
           >
             <div className="w-full h-[14rem] max-[470px]:h-[13rem] max-[367px]:h-[11rem]">
               <img

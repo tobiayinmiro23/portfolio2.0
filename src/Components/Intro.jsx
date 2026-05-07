@@ -9,8 +9,8 @@ const Intro = () => {
       <div aria-hidden className="pointer-events-none absolute -top-40 -left-40 h-96 w-96 rounded-full bg-primary/20 blur-3xl animate-blob" />
       <div aria-hidden className="pointer-events-none absolute top-40 -right-40 h-96 w-96 rounded-full bg-accent/20 blur-3xl animate-blob" />
 
-      <section className="mx-auto max-w-6xl px-6 pt-24 pb-20 text-center">
-        <div className="inline-flex items-center bg-card/60  rounded-full border px-4 py-1.5 text-xs  mb-8">
+      <section className="mx-auto max-w-6xl px-6 pt-10 pb-20 text-center">
+        <div className="inline-flex items-center bg-card/60  rounded-full border px-4 py-1.5 text-xs  mb-8 max-[344px]:text-[0.68rem] max-[344px]:px-2">
           Available for freelance, contract & full-time roles
         </div>
         <h1 className="text-5xl sm:text-7xl font-bold tracking-tight leading-[1.05]">
@@ -18,7 +18,7 @@ const Intro = () => {
           crafting <span className="text-gradient">modern web</span> experiences
         </h1>
         <p className="mt-6 max-w-2xl mx-auto text-lg text-muted-foreground">
-          Hi m name is Ayinmiro Tobi, i build secure, scalable, and beautifully designed website and web apps
+          Hi my name is Ayinmiro Tobi, i build secure, scalable, and beautifully designed website and web apps
           from pixel-perfect interfaces to robust backends and APIs.
         </p>
         <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
