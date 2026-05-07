@@ -1,15 +1,10 @@
 import {useState,useRef} from 'react'
 import menuIcon from '../Assets/menu-svgrepo-com.svg'
-const linkBase = "text-m text-muted-foreground hover:text-foreground cursor-pointer font-medium max-[795px]:my-[1.7rem]";
-import {useState,useRef} from 'react'
 import menuIcon from '../Assets/menu-svgrepo-com.svg'
 const linkBase = "text-m text-muted-foreground hover:text-foreground cursor-pointer font-medium max-[795px]:my-[1.7rem]";
 
 const Nav = () => {
-  let menu = useRef(null)
-    const Menu = () => {
-        if (menu?.current) menu.current.classList.toggle('hamburgermenu')
-    }
+  
   let menu = useRef(null)
     const Menu = () => {
         if (menu?.current) menu.current.classList.toggle('hamburgermenu')
