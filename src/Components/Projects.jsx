@@ -14,21 +14,18 @@ const Projects = () => {
         {projects.map((project) => (
           <div
             key={project.id}
-            className=" w-[22rem] p-[0.7rem] m-4 glass rounded-[0.3rem] shadow-[0px_1px_24px_rgba(0,0,0,0.2)] pb-3 sm:w-[21rem] md:w-[20rem] lg:w-[23rem]"
+            className=" w-[22rem] p-[0.9rem] m-4 project-border rounded-[0.8rem] shadow-[0px_1px_24px_rgba(0,0,0,0.2)] pb-3 sm:w-[21rem] md:w-[20rem] lg:w-[23rem] max-[325px]:w-[90%]"
           >
-            <div className="w-full h-[17rem] rounded-[0.3rem]   sm:h-[17rem] md:h-[14rem]">
+            <div className="w-full h-[14rem] max-[470px]:h-[13rem] max-[367px]:h-[11rem]">
               <img
                 src={project.img}
                 alt={project.info}
                 loading="lazy"
-                className="w-full h-full rounded-t"
+                className="w-full h-full rounded-[0.8rem]"
               />
             </div>
-
-            <h4 className="px-3 py-2 text-m leading-snug font-sans">
-              {project.info}
-            </h4>
-            <div className="mt-1 mb-[1rem] flex flex-wrap gap-2">
+                <h3 className="font-semibold x-3 py-2 text-m leading-snug font-sans">{project.info}</h3>
+            <div className="mt-1 mb-[0.5rem] flex flex-wrap gap-2">
                 {project.stacks.map((i) => (
                   <span key={i} className="rounded-md bg-secondary text-secondary-foreground/90 px-2.5 py-1 text-xs">{i}</span>
                 ))}

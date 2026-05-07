@@ -7,7 +7,7 @@ import Contact from './Components/Contact'
 
 const App = () => {
   return (
-    <body className=" text-[#f0f6fc] ">
+    <body className="">
       <Nav/>
       <Intro/>
       <Skills/>

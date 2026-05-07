@@ -1,19 +1,26 @@
-import React from 'react'
-  const linkBase = "text-sm text-muted-foreground hover:text-foreground transition-colors text-foreground font-medium";
+import {useState,useRef} from 'react'
+import menuIcon from '../Assets/menu-svgrepo-com.svg'
+const linkBase = "text-m text-muted-foreground hover:text-foreground cursor-pointer font-medium max-[795px]:my-[1.7rem]";
 
 const Nav = () => {
+  let menu = useRef(null)
+    const Menu = () => {
+        if (menu?.current) menu.current.classList.toggle('hamburgermenu')
+    }
   return (
      <header className="bg-[#090d16] sticky top-0 z-40 glass">
       <div className="mx-auto max-w-6xl flex items-center justify-between px-6 py-4">
-        <h1 to="/" className="font-bold tracking-tight text-lg text-gradient" >
-          <span className="text-gradient">{"<dev/>"}</span>
+        <h1  className="font-bold tracking-tight text-lg text-gradient" >
+          <span className="text-gradient text-2xl">{"<Fullstack Dev/>"}</span>
         </h1>
-        <nav className="flex items-center gap-6">
-          <p to="/" className={linkBase} >Resume</p>
-          <p to="/about" className={linkBase}>Skills</p>
-          <p to="/projects" className={linkBase}>Projects</p>
-          <p to="/contact" className={linkBase}>Contact</p>
+        <nav ref={menu} className="flex items-center gap-11 max-[795px]:absolute max-[795px]:bg-[black] max-[795px]:transition-all-[1s] max-[795px]:top-[4.06rem] max-[795px]:w-[100%] max-[795px]:h-[100%] max-[795px]:overflow-y-auto max-[795px]:p-[0rem] max-[795px]:pb-[3rem] max-[795px]:block max-[795px]:text-center max-[795px]:z-30 max-[795px]:left-[-100.1%]">
+          <a href="portfoliopic/Ayinmiro Tobi CV.pdf" target='_blank' className={linkBase} >Resume</a>
+          <a href="#skills" className={linkBase}>Skills</a>
+          <a href="#projects" className={linkBase}>Projects</a>
+          <a href="#contact" className={linkBase}>Contact</a>
         </nav>
+        <img src={menuIcon} className="h-7 w-7 hidden max-[795px]:block" onClick={Menu}/>
+        {/* <div className='' onClick={Menu} >hidden</div> */}
       </div>
     </header>
   )
