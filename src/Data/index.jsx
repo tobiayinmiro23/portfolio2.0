@@ -76,7 +76,7 @@ export const projects = [
   },
   {
     id: 2,
-    img: "/portfoliopic/markus-spiske-2G8mnFvH8xk-unsplash (1).jpg",
+    img: "/portfoliopic/markus-spiske-2G8mnFvH8xk-unsplash (1).webp",
     link: "https://news-hub01.netlify.app/",
     stacks: ["React", "TypeScript", "TailwindCSS", "shadcn", "Axios", "NewsData API"],
     info: "News website"
@@ -104,7 +104,7 @@ export const projects = [
   },
   {
     id: 5,
-    img: "/portfoliopic/samuel-regan-asante-wMkaMXTJjlQ-unsplash.jpg",
+    img: "/portfoliopic/samuel-regan-asante-wMkaMXTJjlQ-unsplash.webp",
     link: "https://profound-kringle-74cb33.netlify.app/",
     stacks: ["React", "Tailwind", "TypeScript", "Axios", "tmdb api"],
     info: "Movie download website"
@@ -126,7 +126,7 @@ export const projects = [
   },
   {
     id: 9,
-    img: "/portfoliopic/pexels-breakingpic-3243 (1).jpg",
+    img: "/portfoliopic/pexels-breakingpic-3243 (1).webp",
     link: "https://next-todo1.netlify.app/",
     stacks: ["Next.js", "MongoDB", "TypeScript", "Tailwind", "Bootstrap"],
     info: "Full stack todo app"
@@ -140,7 +140,7 @@ export const projects = [
   },
   {
     id: 11,
-    img: "/portfoliopic/pexels-pixabay-262978.webp",
+    img: "/portfoliopic/pexels-pixabay-262978 (1).webp",
     link: "https://tobiayinmiro23.github.io/Restaurant/",
     stacks: ["HTML", "CSS", "JavaScript"],
     info: "Restaurant website"
