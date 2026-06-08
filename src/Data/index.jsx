@@ -7,6 +7,7 @@ import Mail from '../Assets/email-svgrepo-com.svg'
 import Github from '../Assets/github-svgrepo-com.svg'
 import Linkedin from '../Assets/linkedin-svgrepo-com (1).svg'
 import Whatsapp from '../Assets/whatsapp-svgrepo-com.svg'
+import Dev from '../Assets/dev-svgrepo-com.svg'
 
 
 
@@ -64,6 +65,13 @@ export const contacts = [
     value: "+2348175561332",
     href: "https://wa.me/+2348175561332",
     icon: Whatsapp
+  },
+  {
+    id: 5,
+    label: "Dev",
+    value: "+2348175561332",
+    href: "https://wa.me/+2348175561332",
+    icon: Dev
   }
 ];
 export const projects = [
