@@ -69,11 +69,12 @@ export const contacts = [
   {
     id: 5,
     label: "Dev",
-    value: "+2348175561332",
-    href: "https://wa.me/+2348175561332",
+    value: "tobi_ayinmiro",
+    href: "https://dev.to/tobi_ayinmiro",
     icon: Dev
   }
 ];
+
 export const projects = [
   {
     id: 1,
