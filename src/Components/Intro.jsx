@@ -23,7 +23,7 @@ const Intro = () => {
         </p>
         <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
           <button  size="lg" className="bg-gradient-primary text-primary-foreground shadow-glow py-[0.5rem] px-[0.8rem] rounded-[0.3rem] hover:opacity-90">
-            <a href="portfoliopic/Ayinmiro_Tobi CV.pdf" target='_blank'>View Resume </a>
+            <a href="/portfoliopic/Ayinmiro_Tobi CV.pdf" target='_blank'>View Resume </a>
           </button>
           <button variant="outline" className='bg-[white] text-[black] py-[0.5rem] px-[0.8rem] rounded-[0.3rem] ' size="lg">
             <a href="#contact">Get in touch</a>
