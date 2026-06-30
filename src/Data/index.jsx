@@ -28,7 +28,7 @@ export const stack = [
 export const experienceSummary=[
             { k: "5+", v: "Years of experience" },
             { k: "35+", v: "Projects shipped" },
-            { k: "5", v: "Companies worked with" },
+            { k: "5+", v: "Companies worked with" },
           ]
 export const contacts = [
   {
