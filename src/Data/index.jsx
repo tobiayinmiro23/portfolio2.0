@@ -30,13 +30,6 @@ export const experienceSummary=[
             { k: "35+", v: "Projects shipped" },
             { k: "5", v: "Companies worked with" },
           ]
-export const metaData= [
-      { title: "Home — Full Stack Developer Portfolio" },
-      { name: "description", content: "Full stack developer building fast, beautiful, scalable web and mobile apps." },
-      { property: "og:title", content: "Home — Full Stack Developer Portfolio" },
-      { property: "og:description", content: "Full stack developer building fast, beautiful, scalable web and mobile apps." },
-    ]
-
 export const contacts = [
   {
     id: 1,
