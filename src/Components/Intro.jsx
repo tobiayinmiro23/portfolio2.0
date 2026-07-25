@@ -21,7 +21,7 @@ const Intro = () => {
           Hi my name is Ayinmiro Tobi, i build secure, scalable, and  pixel-perfect website and web apps.
         </p>
         <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
-          <button  size="lg" className="bg-[#00d4df] text-primary-foreground shadow-glow py-[0.5rem] px-[0.8rem] rounded-[0.3rem] hover:opacity-90">
+          <button  size="lg" className="bg-[#00d4df] text-white shadow-glow py-[0.5rem] px-[0.8rem] rounded-[0.3rem] hover:opacity-90">
             <a href="/portfoliopic/Ayinmiro_Tobi.pdf" target='_blank'>View Resume </a>
           </button>
           <button variant="outline" className='bg-[white] text-[black] py-[0.5rem] px-[0.8rem] rounded-[0.3rem] ' size="lg">
