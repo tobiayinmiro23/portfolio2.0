@@ -14,7 +14,8 @@
   }
 
    .text-gradient {
-    background: var(--gradient-primary);
+    /* background: var(--gradient-primary); */
+    background: #00d4df;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
