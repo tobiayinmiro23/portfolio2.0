@@ -18,8 +18,7 @@ const Intro = () => {
           crafting <span className="text-gradient">modern web</span> experiences
         </h1>
         <p className="mt-6 max-w-2xl mx-auto text-lg text-muted-foreground">
-          Hi my name is Ayinmiro Tobi, i build secure, scalable, and beautifully designed website and web apps
-          from pixel-perfect interfaces to robust backends and APIs.
+          Hi my name is Ayinmiro Tobi, i build secure, scalable, and  pixel-perfect website and web apps.
         </p>
         <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
           <button  size="lg" className="bg-[#00d4df] text-primary-foreground shadow-glow py-[0.5rem] px-[0.8rem] rounded-[0.3rem] hover:opacity-90">
