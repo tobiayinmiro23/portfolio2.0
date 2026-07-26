@@ -15,7 +15,7 @@ const Intro = () => {
         </div>
         <h1 className="text-5xl sm:text-7xl font-bold tracking-tight leading-[1.05]">
           Full Stack Developer<br />
-          crafting <span className="">modern web</span> experiences
+          crafting <span className="text-gradient">modern web</span> experiences
         </h1>
         <p className="mt-6 max-w-2xl mx-auto text-lg text-muted-foreground">
           Hi my name is Ayinmiro Tobi, i build secure, scalable, and  pixel-perfect website and web apps.
