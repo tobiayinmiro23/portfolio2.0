@@ -27,7 +27,7 @@ const Projects = () => {
                 <h3 className="font-semibold x-3 py-2 text-m leading-snug font-sans">{project.info}</h3>
             <div className="mt-1 mb-[0.5rem] flex flex-wrap gap-2">
                 {project.stacks.map((i) => (
-                  <span key={i} className="rounded-md bg-secondary text-secondary-foreground/90 px-2.5 py-1 text-xs">{i}</span>
+                  <span key={i} className="rounded-md bg-[#1d263a] text-secondary-foreground/90 px-2.5 py-1 text-xs">{i}</span>
                 ))}
               </div>
               <div  className="bg-[#00d4df]  w-[fit-content] ml-[auto] text-primary-foreground shadow-glow p-[0.8rem] text-end rounded-[50%] hover:opacity-90">
