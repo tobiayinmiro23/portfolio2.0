@@ -30,7 +30,7 @@ const Projects = () => {
                   <span key={i} className="rounded-md bg-secondary text-secondary-foreground/90 px-2.5 py-1 text-xs">{i}</span>
                 ))}
               </div>
-              <div  className="#00d4df  w-[fit-content] ml-[auto] text-primary-foreground shadow-glow p-[0.8rem] text-end rounded-[50%] hover:opacity-90">
+              <div  className="bg-[#00d4df]  w-[fit-content] ml-[auto] text-primary-foreground shadow-glow p-[0.8rem] text-end rounded-[50%] hover:opacity-90">
                 <a
                     href={project.link}
                     target="_blank"
