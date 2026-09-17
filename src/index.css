@@ -81,6 +81,14 @@ html {
     -webkit-backdrop-filter: blur(12px);
     border: 1px solid var(--border);
     will-change: transform;
+    background: oklch(0.21 0.025 265 / 0.85);
     transform: translateZ(0);
+  }
+  @media (min-width: 768px) {
+    .glass {
+      background: color-mix(in oklab, var(--card) 70%, transparent);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
   }
 }
