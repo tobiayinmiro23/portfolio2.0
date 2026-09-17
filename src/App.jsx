@@ -15,13 +15,14 @@ const App = () => {
 }, [])
 
   return (
-    <>
+    //<>
+    <div className="min-h-screen bg-[oklch(0.16_0.02_265)] overflow-x-hidden relative">
       <Nav/>
       <Intro/>
       <Skills/>
       <Projects/>
       <Contact/>
-    </>
+    </div>
   )
 }
 
