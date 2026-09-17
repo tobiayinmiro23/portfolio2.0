@@ -14,7 +14,7 @@ const Skills = () => {
               </div>
               <div className="mt-4 flex flex-wrap gap-2">
                 {items.map((i) => (
-                  <span key={i} className="rounded-md bg-secondary px-2.5 py-1 text-xs">{i}</span>
+                  <span key={i} className="rounded-md bg-[#1d263a] px-2.5 py-1 text-xs">{i}</span>
                 ))}
               </div>
             </div>
